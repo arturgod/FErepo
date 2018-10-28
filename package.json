@@ -1,0 +1,20 @@
+{
+  "private": true,
+  "devDependencies": {
+    "husky": "^1.0.1",
+    "lerna": "^3.4.0",
+    "lint-staged": "^7.3.0",
+    "prettier": "1.14.3"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "lerna run build",
+    "test": "lerna run test --stream --parallel",
+    "start:shared": "cd packages/shared && yarn start",
+    "start": "cd packages/main-app && yarn start",
+    "postinstall": "yarn build",
+    "format": "prettier --write \"packages/*/**/*.js\""
+  }
+}

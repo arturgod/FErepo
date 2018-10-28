@@ -1,0 +1,5 @@
+{
+  "jest": {
+    "setupTestFrameworkScriptFile": "<rootDir>/scripts/setupTests.js"
+  }
+}

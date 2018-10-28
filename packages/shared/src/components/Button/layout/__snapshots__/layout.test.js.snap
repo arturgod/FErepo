@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ButtonLayout /> is truthy 1`] = `
+<button
+  onClick={[Function]}
+  style={
+    Object {
+      "background": "white",
+      "border": "1px solid #aaa",
+      "borderRadius": "20px",
+      "padding": "10px",
+    }
+  }
+>
+  <Component />
+</button>
+`;
