@@ -2,7 +2,7 @@
 
 ## What is monorepo?
 Monorepo is a single repository holding the code of multiple projects which may or may not be related in some way.
-Projects manages in Monorepo can depend on each other.
+Projects manages in Monorepo can depend on each other...
 For example we can have couple applications that uses one shared library with some UI features.
 
 ## Advantages
